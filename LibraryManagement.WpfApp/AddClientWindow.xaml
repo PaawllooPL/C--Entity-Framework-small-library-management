@@ -1,0 +1,19 @@
+﻿<Window x:Class="LibraryManagement.WpfApp.AddClientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryManagement.WpfApp"
+        mc:Ignorable="d"
+        Title="AddClientWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="97,100,0,0" VerticalAlignment="Top"/>
+        <Label Content="Surname" HorizontalAlignment="Left" Margin="97,140,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Save_Button" Content="Save" HorizontalAlignment="Left" Margin="70,57,0,0" VerticalAlignment="Top" Width="60" Height="40" Click="Save_Button_Click"/>
+        <Button x:Name="Exit_Button" Content="Exit" HorizontalAlignment="Left" Margin="140,57,0,0" VerticalAlignment="Top" Width="60" Height="40" Click="Exit_Button_Click"/>
+        <TextBox x:Name="Name_TextBox" HorizontalAlignment="Left"   Margin="170,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Surname_TextBox" HorizontalAlignment="Left" Margin="170,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <DatePicker x:Name="DatePicker" HorizontalAlignment="Left" Margin="170,0,0,0" VerticalAlignment="Center"/>
+
+    </Grid>
+</Window>
